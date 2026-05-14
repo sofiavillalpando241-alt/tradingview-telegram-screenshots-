@@ -32,6 +32,6 @@ async def main():
     print("🚀 Bot iniciado — enviará screenshot cada 30 minutos")
     while True:
         await screenshot_and_send()
-        await asyncio.sleep(1800)
+        await asyncio.sleep(300)
 
 asyncio.run(main())
